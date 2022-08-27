@@ -24,12 +24,12 @@ import androidx.recyclerview.widget.ListAdapter
 import androidx.recyclerview.widget.RecyclerView
 import com.google.android.material.composethemeadapter.MdcTheme
 import com.kisonpan.samples.apps.cutepet.HomeViewPagerFragmentDirections
-import com.kisonpan.samples.apps.cutepet.PlantListFragment
+import com.kisonpan.samples.apps.cutepet.PetListFragment
 import com.kisonpan.samples.apps.cutepet.compose.plantlist.PlantListItemView
 import com.kisonpan.samples.apps.cutepet.data.Plant
 
 /**
- * Adapter for the [RecyclerView] in [PlantListFragment].
+ * Adapter for the [RecyclerView] in [PetListFragment].
  */
 class PlantAdapter : ListAdapter<Plant, RecyclerView.ViewHolder>(PlantDiffCallback()) {
 

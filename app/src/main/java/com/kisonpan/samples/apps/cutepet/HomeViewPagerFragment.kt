@@ -58,8 +58,8 @@ class HomeViewPagerFragment : Fragment() {
     private fun getTabIcon(position: Int): Int {
         return when (position) {
             MY_GARDEN_PAGE_INDEX -> R.drawable.garden_tab_selector
-            PLANT_LIST_PAGE_INDEX -> R.drawable.plant_list_tab_selector
-            SETTINGS_PAGE_INDEX -> R.drawable.garden_tab_selector
+            PLANT_LIST_PAGE_INDEX -> R.drawable.petlist_tab_selector
+            SETTINGS_PAGE_INDEX -> R.drawable.mine_tab_selector
             else -> throw IndexOutOfBoundsException()
         }
     }
@@ -68,7 +68,7 @@ class HomeViewPagerFragment : Fragment() {
         return when (position) {
             MY_GARDEN_PAGE_INDEX -> getString(R.string.my_garden_title)
             PLANT_LIST_PAGE_INDEX -> getString(R.string.plant_list_title)
-            SETTINGS_PAGE_INDEX -> "Profile"
+            SETTINGS_PAGE_INDEX -> "我的"
             else -> null
         }
     }

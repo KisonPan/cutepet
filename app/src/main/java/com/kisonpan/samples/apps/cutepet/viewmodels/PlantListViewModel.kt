@@ -21,18 +21,17 @@ import androidx.lifecycle.SavedStateHandle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.asLiveData
 import androidx.lifecycle.viewModelScope
-import com.kisonpan.samples.apps.cutepet.PlantListFragment
+import com.kisonpan.samples.apps.cutepet.PetListFragment
 import com.kisonpan.samples.apps.cutepet.data.Plant
 import com.kisonpan.samples.apps.cutepet.data.PlantRepository
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.flatMapLatest
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
 /**
- * The ViewModel for [PlantListFragment].
+ * The ViewModel for [PetListFragment].
  */
 @HiltViewModel
 class PlantListViewModel @Inject internal constructor(

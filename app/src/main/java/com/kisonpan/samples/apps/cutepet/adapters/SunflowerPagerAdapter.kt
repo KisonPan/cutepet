@@ -19,7 +19,7 @@ package com.kisonpan.samples.apps.cutepet.adapters
 import androidx.fragment.app.Fragment
 import androidx.viewpager2.adapter.FragmentStateAdapter
 import com.kisonpan.samples.apps.cutepet.GardenFragment
-import com.kisonpan.samples.apps.cutepet.PlantListFragment
+import com.kisonpan.samples.apps.cutepet.PetListFragment
 import com.kisonpan.samples.apps.cutepet.SettingsFragment
 
 const val MY_GARDEN_PAGE_INDEX = 0
@@ -33,7 +33,7 @@ class SunflowerPagerAdapter(fragment: Fragment) : FragmentStateAdapter(fragment)
      */
     private val tabFragmentsCreators: Map<Int, () -> Fragment> = mapOf(
         MY_GARDEN_PAGE_INDEX to { GardenFragment() },
-        PLANT_LIST_PAGE_INDEX to { PlantListFragment() },
+        PLANT_LIST_PAGE_INDEX to { PetListFragment() },
         SETTINGS_PAGE_INDEX to { SettingsFragment() }
     )
 

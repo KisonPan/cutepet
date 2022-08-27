@@ -31,7 +31,7 @@ import com.kisonpan.samples.apps.cutepet.viewmodels.PlantListViewModel
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class PlantListFragment : Fragment() {
+class PetListFragment : Fragment() {
 
     private val viewModel: PlantListViewModel by viewModels()
 
@@ -52,7 +52,7 @@ class PlantListFragment : Fragment() {
     }
 
     override fun onCreateOptionsMenu(menu: Menu, inflater: MenuInflater) {
-        inflater.inflate(R.menu.menu_plant_list, menu)
+//        inflater.inflate(R.menu.menu_plant_list, menu)
     }
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {

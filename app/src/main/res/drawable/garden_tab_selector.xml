@@ -16,6 +16,6 @@
   -->
 
 <selector xmlns:android="http://schemas.android.com/apk/res/android" >
-    <item android:drawable="@drawable/ic_my_garden_active" android:state_selected="true"/>
-    <item android:drawable="@drawable/ic_my_garden_inactive"/>
+    <item android:drawable="@drawable/ic_dog" android:state_selected="true"/>
+    <item android:drawable="@drawable/ic_dog_2"/>
 </selector>
